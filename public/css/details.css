@@ -2,6 +2,7 @@
 /*cutsom styling*/
 html,body{
     height: 100%;
+
 }
 
 .nav {
@@ -130,6 +131,7 @@ font-family: 'Pacifico', cursive;
     -o-background-size: cover;
     background-size: cover;
     border: 2px solid black;
+      cursor: url('/images/wed-icon.png'), auto;
 }
 
 @media (max-width: 1000px) {
@@ -182,6 +184,7 @@ font-family: 'Pacifico', cursive;
   box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
 max-height: 70%;
 overflow: hidden;
+
   }
 }
 
@@ -422,7 +425,7 @@ border: 10px solid transparent;
    } */
 
    #Itinerary {
-     background-image: url('/images/pink-board.jpeg');
+     /* background-image: url('/images/pink-board.jpeg'); */
      background-image: no-repeat center center fixed;
        -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -431,11 +434,12 @@ border: 10px solid transparent;
        color: #264653;
        font-weight: bold;
        padding: 2%;
+       cursor: url('/images/wed-icon.png'), auto;
    }
 
    @media (max-width: 1000px) {
      #Itinerary {
-       background-image: url('/images/pink-board.jpeg');
+       /* background-image: url('/images/pink-board.jpeg'); */
        background-image: no-repeat center center fixed;
          -webkit-background-size: cover;
          -moz-background-size: cover;
@@ -449,7 +453,7 @@ border: 10px solid transparent;
    }
    @media (min-width: 50px) and (max-width: 1000px) {
      #Itinerary {
-       background-image: url('/images/pink-board.jpeg');
+       /* background-image: url('/images/pink-board.jpeg'); */
        background-image: no-repeat center center fixed;
          -webkit-background-size: cover;
          -moz-background-size: cover;
@@ -551,13 +555,13 @@ border: 10px solid transparent;
      height: 200px;
      width: 200px;
      /* background:silver; */
-     padding: 1rem;
-     border: 1px solid white;
+     /* padding: 1rem;
+     border: 1px solid white; */
      /* background-image: url('/images/white-sparkle.png'); */
-     cursor: url('/images/heart-small.png'), auto;
+     /* cursor: url('/images/heart-small.png'), auto;
      -webkit-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
      -moz-box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
-     box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48);
+     box-shadow: 0px 2px 40px 1px rgba(0,0,0,0.48); */
    }
 
    .wedding-party {
