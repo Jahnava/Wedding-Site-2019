@@ -75,6 +75,37 @@ canvas {
     repeat: no-repeat;
 }
 
+@media (max-width: 1000px) {
+  canvas {
+    /* background-color: silver; */
+    background-image: url('/images/gold-paper-nptext.png');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      repeat: no-repeat;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  canvas {
+    /* background-color: silver; */
+    background-image: url('/images/paper-goldnptext-.jpg');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      repeat: no-repeat;
+  }
+}
+
 /* @media (max-width: 1000px) {
   canvas {
     background-image: url('/images/gold.jpeg');
