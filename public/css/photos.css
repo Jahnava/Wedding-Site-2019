@@ -59,12 +59,14 @@ border: 1px solid black;
 
 .item {
   height: 100vh;
-  margin-top: 1%;
+  margin-top: 5px;
+
 }
 
 .item img {
   height: 90%!important;
   margin: auto;
+  border: 5px solid black;
 }
 @media (max-width: 1000px) {
   .item img {
@@ -80,6 +82,8 @@ border: 1px solid black;
     margin-top: 15%;
   }
 }
+
+
 
 .carousel-control {
   background : none!important;

@@ -63,12 +63,16 @@ h3 {
 
 canvas {
   /* background-color: silver; */
-  background-image: url('/images/white-wood.jpeg');
+  background-image: url('/images/splash.png');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    repeat: no-repeat;
 }
 
 /* @media (max-width: 1000px) {
@@ -173,7 +177,7 @@ canvas {
 #letter {
   position: relative;
   background: #adbce6;
-  background-image: url('/images/weddingInvite.png');
+  background-image: url('/images/invitation2.png');
   background-image: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
