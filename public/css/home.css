@@ -61,7 +61,7 @@ h1, .nav-pills>li>a {
 
 #header-pic {
   /* background-image: url('/images/paper-gold.jpg'); */
-  background-image: url('/images/beach3.jpg');
+  background-image: url('/images/splash.png');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
