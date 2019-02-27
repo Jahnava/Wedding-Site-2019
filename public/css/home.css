@@ -283,9 +283,10 @@ h2, h3, h4 {
   -moz-box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   border: 2px solid white;
-  height: 85%;
-  width: 55%;
+  height: 100%;
+  width: 60%;
   margin-top: 45px;
+  margin-bottom: 45px;
 
 }
 
@@ -298,7 +299,7 @@ h2, h3, h4 {
   border: 5px solid white;
   height: 100%;
   width: 100%;
-  margin-top: 0px;
+  margin-top: 45px;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -310,7 +311,7 @@ h2, h3, h4 {
     border: 5px solid white;
     height: 100%;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 45px;
   }
 }
 
@@ -323,7 +324,7 @@ h2, h3, h4 {
     border: 5px solid white;
     height: 100%;
     width: 50%;
-    margin-top: 0px;
+    margin-top: 45px;
   }
 }
 
