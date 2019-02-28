@@ -61,7 +61,7 @@ h1, .nav-pills>li>a {
 
 #header-pic {
   /* background-image: url('/images/paper-gold.jpg'); */
-  background-image: url('/images/splash.png');
+  background-image: url('/images/splash2.png');
   background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,7 +284,7 @@ h2, h3, h4 {
   box-shadow: 2px 0px 113px 0px rgba(138,90,138,1);
   border: 2px solid white;
   height: 100%;
-  width: 60%;
+  width: 56%;
   margin-top: 45px;
   margin-bottom: 45px;
 
