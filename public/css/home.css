@@ -83,7 +83,7 @@ h1, .nav-pills>li>a {
     -o-background-size: cover;
     background-size: cover;
      max-height:50%;
-    max-width:100%;
+    max-width:98%;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -95,7 +95,7 @@ h1, .nav-pills>li>a {
       -o-background-size: cover;
       background-size: cover;
       max-height:40%;
-      max-width:100%;
+      max-width:98%;
   }
 }
 
