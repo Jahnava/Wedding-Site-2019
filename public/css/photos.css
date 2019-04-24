@@ -70,16 +70,18 @@ border: 1px solid black;
 }
 @media (max-width: 1000px) {
   .item img {
-    height: 55%!important;
+    max-height: 50%!important;
     margin: auto;
     margin-top: 15px;
+    max-width: 50%;
   }
 }
 @media (min-width: 50px) and (max-width: 1000px) {
   .item img {
-    height: 55%!important;
+    max-height: 55%!important;
     margin: auto;
     margin-top: 15%;
+    max-width: 50%;
   }
 }
 
